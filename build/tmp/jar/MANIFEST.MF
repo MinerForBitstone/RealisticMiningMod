@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: RealisticMiningMod
+Implementation-Version: 1.0
+Specification-Vendor: minerforstone
+Specification-Title: realisticmining
+Implementation-Timestamp: 2023-06-11T19:05:34-0500
+Specification-Version: 1
+Implementation-Vendor: minerforstone
+
