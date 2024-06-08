@@ -2,6 +2,7 @@ package com.minerforstone.realisticmining;
 
 import com.minerforstone.realisticmining.events.BreakBlockHandler;
 import com.minerforstone.realisticmining.events.EntityHandler;
+import com.minerforstone.realisticmining.events.MinecartInteractionHandler;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -39,6 +40,7 @@ public class RealisticMiningMod {
 
         MinecraftForge.EVENT_BUS.register(BreakBlockHandler.class);
         MinecraftForge.EVENT_BUS.register(EntityHandler.class);
+        MinecraftForge.EVENT_BUS.register(MinecartInteractionHandler.class);
     }
 
     private void setup(final FMLCommonSetupEvent event)
